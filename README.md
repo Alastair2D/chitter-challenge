@@ -21,9 +21,11 @@ This is a full-stack application using three-tier MVC architecture.
 
 ```
 
-## Test Coverage
+## Testing
 
-Run `rspec` from the project root to see test results.  
+The testing framework utilises RSpec, SimpleCov & Capybara. 
+
+To run the tests: `rspec` from the project root to see test results and coverage.  
 
 The `./spec/features/web_helpers.rb` file contains a few methods to keep the testing code DRY.
 
@@ -40,7 +42,9 @@ Create two tables as detailed in the [database model](#database-model) above.
 
 Once the relevant gems have been installed and the databases and tables have been created on your local machine, Chitter is ready to use. 
 
-Run `rackup` [or e.g. `rackup -p 9292`] and go to the relevant url: `localhost9292.'  This will take you to the homepage.  
+Run `rackup` [or e.g. `rackup -p 9292`] and go to the relevant url: `localhost9292' -  this will take you to the homepage.  
+
+From there, you will be able to enjoy the following features...
 
 
 ## User Stories

@@ -13,6 +13,7 @@ This is a full-stack application using three-tier MVC architecture.
 
 ```
 
+
 ## Database Model
 
 ** Insert model **
@@ -20,6 +21,7 @@ This is a full-stack application using three-tier MVC architecture.
 ```
 
 ```
+
 
 ## Testing
 
@@ -29,7 +31,8 @@ To run the tests: `rspec` from the project root to see test results and coverage
 
 The `./spec/features/web_helpers.rb` file contains a few methods to keep the testing code DRY.
 
-The application will either connect to either the 'chitter' or 'chitter_test' database accordingly.  
+The application will either connect to either the 'chitter' or 'chitter_test' database according to the Rakefile.  
+
 
 
 ## How to install and use Chitter
@@ -47,30 +50,27 @@ Run `rackup` [or e.g. `rackup -p 9292`] and go to the relevant url: `localhost92
 From there, you will be able to enjoy the following features...
 
 
+
 ## User Stories
 
-As a Maker
-So that I can let people know what I am doing  
+As a Maker...
+
+- So that I can let people know what I am doing,
 I want to post a message (peep) to chitter
 
-As a maker
-So that I can see what others are saying  
+- So that I can see what others are saying,
 I want to see all peeps in reverse chronological order
 
-As a Maker
-So that I can better appreciate the context of a peep
+- So that I can better appreciate the context of a peep,
 I want to see the time at which it was made
 
-As a Maker
-So that I can post messages on Chitter as me
+- So that I can post messages on Chitter as me,
 I want to sign up for Chitter
 
-As a Maker
-So that only I can post messages on Chitter as me
+- So that only I can post messages on Chitter as me,
 I want to log in to Chitter
 
-As a Maker
-So that I can avoid others posting messages on Chitter as me
+- So that I can avoid others posting messages on Chitter as me,
 I want to log out of Chitter
 
-------------------------------------------------------------
+-------------------------------------------------------------

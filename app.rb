@@ -1,4 +1,4 @@
-# require './lib/bookmarks'
+require './lib/peep'
 require 'sinatra/base'
 require 'sinatra/flash'
 require 'uri'

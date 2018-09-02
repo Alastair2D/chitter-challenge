@@ -11,7 +11,7 @@ gem 'pg'
 
 group :test do
   gem 'rspec'
-  gem 'rubocop', '0.56.0'
+  gem 'rubocop', '0.58.2'
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
 end

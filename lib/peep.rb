@@ -1,17 +1,16 @@
 require 'pg'
 
-class Peep 
-
-  def self.all 
+class Peep
+  def self.all
     if ENV['RACK ENV'] == 'test'
       connection = PG.connect(dbname: 'chitter_test')
     else
       connection = PG.connect(dbname: 'chitter')
     end
-      result = connection.exec("SELECT * FROM peeps")
-      result.map do |peep| 
-        Peep.new(id: peep['id'], peep: peep['peep'])
-      end
+    result = connection.exec("SELECT * FROM peeps")
+    result.map do |peep|
+      Peep.new(id: peep['id'], peep: peep['peep'])
+    end
   end
 
   def self.create(peep:)

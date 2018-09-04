@@ -11,7 +11,7 @@ class Chitter < Sinatra::Base
     'Hello world'
   end
 
-  get '/peeps' do 
+  get '/peeps' do
     @peeps = Peep.all
     erb :index
   end
@@ -21,12 +21,10 @@ class Chitter < Sinatra::Base
     redirect '/all_peeps'
   end
 
-  get '/all_peeps' do 
+  get '/all_peeps' do
     @peeps = Peep.all
     erb :index
   end
 
-  
   run! if app_file == $0
-
 end

@@ -1,6 +1,3 @@
-# So that I can let people know what I am doing  
-# I want to post a message (peep) to chitter
-
 feature 'Creating a peep' do
   
   scenario 'A user can add a peep to Chitter' do
@@ -10,6 +7,4 @@ feature 'Creating a peep' do
     expect(page).to have_content('This is my first sql peep!')
   end
 
-
 end
-

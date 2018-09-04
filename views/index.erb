@@ -1,16 +1,14 @@
-<html>
+<form method="post" action="/all_peeps">
+  <label for='peep'>PEEP:</label>
+  <input type="text" name="peep"/>
+  <input type="submit" value="Submit" />
+</form>
 
-<!-- <% @bookmarks.each do |item| %>
-  <%= item %> </br>
-    <% end %>
 
-      <br>
-      <form action='/add' method='get'>
-        <div>
-          <input type='submit' name='add url' value='Add'>
-        </div>
-      </form>
+<ul>
+  <% @peeps.each do |peep| %>
+  <li> <%= peep %> </li>  
+  <% end %>
 
-      <%= flash[:notice] %> -->
 
-</html>
+</ul>

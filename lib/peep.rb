@@ -9,10 +9,13 @@ class Peep
       connection = PG.connect(dbname: 'chitter')
     end
       result = connection.exec("SELECT * FROM peeps")
-      result.map{ |peep| peep["peep"] }
+      result.map do |peep| 
+        Peep.new(id: peep['id'], peep: peep['peep'])
+      
+      end
   end
 
-  def self.create(peep)
+  def self.create(peep:)
     if ENV['RACK ENV'] == 'test'
       connection = PG.connect(dbname: 'chitter_test')
     else

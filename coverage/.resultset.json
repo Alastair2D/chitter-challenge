@@ -1,0 +1,39 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/a1/makers/chitter/spec/features/new_peep_spec.rb": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/a1/makers/chitter/spec/units/peep_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1536071443
+  }
+}

@@ -11,13 +11,11 @@ This is a full-stack application using three-tier MVC architecture.
 ** Insert model **
 ```
 
-
 ## Database Model
 
 ```
 ** Insert model **
 ```
-
 
 ## Testing
 
@@ -49,22 +47,27 @@ From there, you will be able to enjoy the following features...
 
 As a Maker...
 
-- So that I can let people know what I am doing,
+So that I can let people know what I am doing  
 I want to post a message (peep) to chitter
 
-- So that I can see what others are saying,
+So that I can see what others are saying  
 I want to see all peeps in reverse chronological order
 
-- So that I can better appreciate the context of a peep,
+So that I can better appreciate the context of a peep
 I want to see the time at which it was made
 
-- So that I can post messages on Chitter as me,
+So that I can post messages on Chitter as me
 I want to sign up for Chitter
 
-- So that only I can post messages on Chitter as me,
+HARDER
+
+So that only I can post messages on Chitter as me
 I want to log in to Chitter
 
-- So that I can avoid others posting messages on Chitter as me,
+So that I can avoid others posting messages on Chitter as me
 I want to log out of Chitter
 
--------------------------------------------------------------
+ADVANCED
+
+So that I can stay constantly tapped in to the shouty box of Chitter
+I want to receive an email if I am tagged in a Peep

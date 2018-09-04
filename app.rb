@@ -11,6 +11,12 @@ class Chitter < Sinatra::Base
     'Hello world'
   end
 
+  get '/peeps' do 
+    erb :index
+  end
+
+  
+
   run! if app_file == $0
 
 end
